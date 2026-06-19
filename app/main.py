@@ -48,7 +48,7 @@ app = FastAPI()
  
 app.add_middleware(
     CORSMiddleware,
-    allow_origin_regex=r"https://travel-agent-frontend.*\.vercel\.app",
+    allow_origin_regex=r"https://travel-agent-frontend-wzq3.*\.vercel\.app",
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
